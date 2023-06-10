@@ -14,10 +14,10 @@ flutter build ios
 
 # Instructions For Local Use
 
-##Step 1:
+## Step 1:
 Clone this repo and cd into it.
 
-##Step 2:
+## Step 2:
 While I have provided an example build, you should probably run
 ```
 flutter run build linux --release
@@ -30,14 +30,14 @@ This will be your installation directory for your front end application.
 You can then delete the rest of the repository since that's all you need to run the front end locally.
 Keep it around if you want to experiment with your own cross-platform builds and deployment strategies.
 
-##Step 3:
+## Step 3:
 If you chose to follow [these instructions](https://github.com/thecodekitchen/bardchat-python/blob/master/README.md) to activate the backend, you can simply run the binary file from your installation directory after activating it successfully.
 
 NOTE: This was necessary since the unofficial API I found for chatting with Bard was in Python, not Dart. However, since I really enjoy working between these tools, I'm considering assembling a formal toolkit that integrates them automatically and calling it the Flython stack.
 
 Alternatively, follow the next optional step to streamline the startup process.
 
-##Step 3.5 (optional):
+## Step 3.5 (optional):
 Install [Docker and Docker Compose](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-install-Docker-and-docker-compose-on-Ubuntu) locally if you haven't already.
 Then, download the docker-compose.yaml file from [bardchat-python](https://github.com/thecodekitchen/bardchat-python/blob/master/docker-compose.yaml) and move it into your installation directory. 
 run
@@ -56,7 +56,7 @@ Now, when you start a new console, you should be able to type 'bard' to open the
 
 That's all you will need to do from now on to start the app locallly!
 
-##Step 4:
+## Step 4:
 Visit bard.google.com, log in with your google account, and hit F12 on the chat page.
 Go to the Storage blade of the Application tab and select https://bard.google.com from the Cookies dropdown.
 From there, find the Secure_1PSID cookie and copy its value. This essentially operates as your API token for the moment until an official API is released. More info can be found [here](https://github.com/dsdanielpark/Bard-API).
