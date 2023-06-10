@@ -1,16 +1,13 @@
 # bardchat
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+A cross-platform front end for using the currently unofficial Bard API locally on your devices.
+This app is currently built to be run on the same local device which runs the [bardchat-python](https://github.com/thecodekitchen/bardchat-python) backend.
+Soon, I will be providing Terraform scripts for various cloud deployment strategies which would theoretically enable a working mobile build by targeting the endpoint for your cloud deployment in 
+main.dart and running
+```
+flutter build android
+```
+or
+```
+flutter build ios
+```
